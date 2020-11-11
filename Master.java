@@ -47,13 +47,13 @@ public class Master{
         arvore.remover(24);
 */
         //sobrescrevendo
-        System.out.println("Buscando elemento: "+arvore.buscar("www.xvideos.com"));
-        System.out.println("Modificando valor com mesma chave" + arvore.inserirElemento(new Elemento("www.xvideos.com", "39.39")));
-        System.out.println(arvore.buscar("www.xvideos.com"));
+        System.out.println("Buscando elemento: "+arvore.buscar(chaveDoElementoQueDesejaProcurar));
+        System.out.println("Modificando valor com mesma chave" + arvore.inserirElemento(new Elemento(chave, valor)));
+        System.out.println(arvore.buscar(chaveDoElemento));
 
         //Removendo
-        System.out.println("Removendo Elemento: " + arvore.remover("www.xvideos.com"));
-        System.out.println("Buscando elemento removido: " + arvore.buscar("www.xvideos.com"));
+        System.out.println("Removendo Elemento: " + arvore.remover(chaveDoelementoQueDesejaRemover));
+        System.out.println("Buscando elemento removido: " + arvore.buscar(chaveDoElementoQueDesejaProcurar));
 
         System.out.println(arvore);
 
