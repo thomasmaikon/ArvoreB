@@ -9,4 +9,4 @@ No arquivo Master, é criada uma função que realiza a leitura de arquivo .txt 
 O formato de leitura é endereço IP e endereço comum do site separados por `-`, por exemplo:
 ##### `32.153.146 - www.github.com/thomasmaikon`
 
-Como foi utilizado comparable do java, é possivel utilizar qualquer tipo de dado como chave, desde que todos pertençam ao mesmo tipo do dado
+Como foi utilizado comparable e generics , é possivel utilizar qualquer tipo de dado como chave e valor, desde que todos pertençam ao mesmo tipo do dado
