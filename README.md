@@ -1,5 +1,5 @@
 # ArvoreB
-Tentativa de Implementação da estrutura de dados ArvoreB
+Implementação da estrutura de dados ArvoreB
 
 ## Arquivo Master.java
 No arquivo Master, é criada uma função que realiza a leitura de arquivo .txt é importante desabilitar essa função e utilizar o exemplo comitado
